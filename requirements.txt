@@ -1,0 +1,8 @@
+# Top-level dependencies. Full pinned set is in requirements-lock.txt
+# CPU-only torch build (matches the original venv):
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+pdfplumber==0.11.10
+sentence-transformers==6.0.0
+chromadb==1.5.9
+torch==2.13.0+cpu
